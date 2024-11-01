@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Цены - GP DAYS 2024</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./prices.css" />
+    <!-- <link rel="stylesheet" href="media_pr.css" /> -->
+  </head>
+
+  <body>
+    <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <a href="https://globus-ltd.ru/" target="_blank"
+          ><img class="header__logo-globus" src="./icon/globus.png"
+        /></a>
+      </div>
+      <nav class="header__nav">
+        <a href="./index.html" class="header__nav-link">главная</a>
+        <a href="./info.html" class="header__nav-link">о мероприятии</a>
+        <a href="#" class="header__nav-link">цены</a>
+        <a href="./sections.html" class="header__nav-link">секции</a>
+        <a href="./contacts.html" class="header__nav-link">контакты</a>
+        <a href="./parts.html" class="header__nav-link">партнеры</a>
+      </nav>
+      <div class="header__menu" id="header__menu">
+        <img class="header__menu-img" src="./icon/menu-50.png" alt="/" />
+      </div>
+
+      <div class="header__modal" id="header__modal">
+        <nav class="header__modal-nav">
+          <a href="./index.html" class="header__modal-link">главная</a>
+            <a href="./info.html" class="header__modal-link">о мероприятии</a>
+            <a href="#" class="header__modal-link">цены</a>
+            <a href="./sections.html" class="header__modal-link">секции</a>
+            <a href="./contacts.html" class="header__modal-link">контакты</a>
+            <a href="./parts.html" class="header__modal-link">партнеры</a>
+        </nav>
+        <p class="header__modal-close" id="header__modal-close">✖</p>
+      </div>
+
+    </header>
+
+    <div class="wrapper">
+
+      <!--Слайдер-->
+      <div class="image-slider swiper-container">
+        <div class="image-slider__wrapper swiper-wrapper">
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img class="image-slider__image_bg" src="./slader/1.png" alt="Билет"/> 
+              <p class="image-slider__image_title zi5">All Inclusive</p>
+              <p class="image-slider__image_list_title zi5">Дает право на посещение всех секций и неформальных
+                мероприятий, а именно:</p>
+              <ul class="image-slider__image_list zi5">
+                <li class="image-slider__image_list_item">Секции «Управление» (4-5 сентября).</li>
+                <li class="image-slider__image_list_item">Профильных секций: Дизайн / HR (4-5 сентября).</li>
+                <li class="image-slider__image_list_item">Питч-сессии (5 сентября).</li>
+                <li class="image-slider__image_list_item">Секции «Разработка» (5 сентября).</li>
+                <li class="image-slider__image_list_item">Pre-party (4 сентября).</li>
+                <li class="image-slider__image_list_item">Middle-party (5 сентября).</li>
+              </ul>
+              <p class="image-slider__image_desc zi5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, odit impedit cum dignissimos assumenda alias veritatis quidem, laudantium nobis quos esse reiciendis ipsa eius error unde delectus, quia dolores exercitationem?</p>
+              <p class="image-slider__image_price zi5">26 000</p>
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="./slader/1.png" alt="Билет"/>
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="./slader/1.png" alt="Билет"/>
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="./slader/1.png" alt="Билет"/>
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="./slader/1.png" alt="Билет"/>
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="./slader/1.png" alt="Билет"/>
+            </div>
+          </div>
+          <div class="image-slider__slide swiper-slide">
+            <div class="image-slider__image">
+              <img src="./slader/1.png" alt="Билет"/>
+            </div>
+          </div>
+        </div>
+        <!--Добавдение стрелок-->
+        <div class="swiper-button-next'"></div>
+        <div class="swiper-button-prev'"></div>
+          <!--Добавдение пагинации-->
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./pricess.js"></script>
+  </body>
+</html>
