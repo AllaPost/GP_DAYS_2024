@@ -1,0 +1,54 @@
+.modal__registration {
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal__registration-open {
+    display: flex;
+}
+
+.modal__registration_bg {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.596);
+    z-index: 1001;
+}
+
+.modal__registration_content {
+    min-width: 300px;
+    min-height: 300px;
+    z-index: 1002;
+    background: linear-gradient(20deg, rgb(76, 195, 38), rgb(255, 234, 42));
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.modal__registration_field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.modal__registration_password {
+    margin-bottom: 40px;
+
+}
+
+.modal__registration_btn {
+    padding: 10px 5px;
+    border-radius: 25px;
+    background: linear-gradient(20deg, rgb(76, 195, 38), rgb(255, 234, 42));
+    font-family: "Cormorant Infant", serif;
+    font-weight: bold;
+    font-style: normal;
+
+}

@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="header.media.css" />
     <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="modal__registration.css">
     <script src="./index.js"></script>
   </head>
   <body>
@@ -93,8 +94,10 @@
         </div>
 
         <div class="intro__bottom">
-          <button class="main-btn">регистрация</button>
+          <button class="main-btn" id="main-btn-reg">регистрация</button>
         </div>
+
+
         <ul class="content__social">
           <li>
             <a
@@ -140,5 +143,21 @@
         </div>
       </main>
     </div>
+    
+    <div class="modal__registration" id="modal__registration">
+      <div class="modal__registration_bg" id="modal__registration_bg"></div>
+      <form class="modal__registration_content" id="modal__registration_content">
+        <div class="modal__registration_email modal__registration_field">
+          <label class="modal__registration_email_label" for="modal__registration_email_input">Email: </label>
+          <input class="modal__registration_email_input" id="modal__registration_email_input" type="email"/>
+        </div>
+        <div class="modal__registration_password modal__registration_field">
+          <label class="modal__registration_password_label" for="modal__registration_password_input">Пароль: </label>
+          <input class="modal__registration_password_input" id="modal__registration_password_input" type="password"/>
+        </div>
+        <button class="modal__registration_btn" type="submit">Зарегистрироваться</button>
+      </form>
+    </div>
+    <script src="modal__registration.js"></script>
   </body>
 </html>

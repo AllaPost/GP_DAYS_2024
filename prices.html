@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="./prices.css" />
     <link rel="stylesheet" href="./header.media.css" />
+    <link rel="stylesheet" href="modal__registration.css" />
   </head>
 
   <body>
@@ -49,9 +50,9 @@
           /></a>
         </div>
         <nav class="header__nav">
-          <a href="#" class="header__nav-link">главная</a>
+          <a href="./index.html" class="header__nav-link">главная</a>
           <a href="./info.html" class="header__nav-link">о мероприятии</a>
-          <a href="./prices.html" class="header__nav-link">цены</a>
+          <a href="#" class="header__nav-link">цены</a>
           <a href="./sections.html" class="header__nav-link">секции</a>
           <a href="./contacts.html" class="header__nav-link">контакты</a>
           <a href="./parts.html" class="header__nav-link">партнеры</a>
@@ -62,9 +63,9 @@
 
         <div class="header__modal" id="header__modal">
           <nav class="header__modal-nav">
-            <a href="#" class="header__modal-link">главная</a>
+            <a href="./index.html" class="header__modal-link">главная</a>
             <a href="./info.html" class="header__modal-link">о мероприятии</a>
-            <a href="./prices.html" class="header__modal-link">цены</a>
+            <a href="#" class="header__modal-link">цены</a>
             <a href="./sections.html" class="header__modal-link">секции</a>
             <a href="./contacts.html" class="header__modal-link">контакты</a>
             <a href="./parts.html" class="header__modal-link">партнеры</a>
@@ -308,10 +309,31 @@
           <!--Добавдение пагинации-->
           <div class="swiper-pagination"></div>
         </div>
+
+
+          <button class="price__btn" id="main-btn-reg">регистрация</button>
+
+
       </div>
+    </div>
+    <div class="modal__registration" id="modal__registration">
+      <div class="modal__registration_bg" id="modal__registration_bg"></div>
+      <form class="modal__registration_content" id="modal__registration_content">
+        <div class="modal__registration_email modal__registration_field">
+          <label class="modal__registration_email_label" for="modal__registration_email_input">Email: </label>
+          <input class="modal__registration_email_input" id="modal__registration_email_input" type="email"/>
+        </div>
+        <div class="modal__registration_password modal__registration_field">
+          <label class="modal__registration_password_label" for="modal__registration_password_input">Пароль: </label>
+          <input class="modal__registration_password_input" id="modal__registration_password_input" type="password"/>
+        </div>
+        <button class="modal__registration_btn" type="submit">Зарегистрироваться</button>
+      </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./pricess.js"></script>
     <script defer src="./index.js"></script>
+    <script defer src="modal__registration.js"></script>
+
   </body>
 </html>

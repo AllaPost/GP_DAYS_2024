@@ -27,6 +27,27 @@
   overflow: hidden;
 }
 
+.price__btn {
+  margin-inline: auto;
+  text-transform: uppercase;
+  text-align: right;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(34, 32, 32);
+  position: static;
+  width: 100%;
+  max-width: 300px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 66.81px 17px 66.81px;
+  border-radius: 100px;
+  background: linear-gradient(90deg, rgb(76, 195, 38), rgb(255, 234, 42) 100%);
+}
+  
 .image-slider__image {
   position: relative;
   text-align: center;
