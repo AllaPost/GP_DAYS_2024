@@ -1,0 +1,7 @@
+@media (max-width: 1126px) {
+  .text__waiting,
+  .item__text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}

@@ -1,0 +1,36 @@
+@media (max-width: 816px) {
+  .header__menu {
+    display: block;
+  }
+  .header__logo {
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .header__menu-img,
+  .header__logo-img {
+    --size: 35px;
+  }
+  .header__nav {
+    gap: 10px;
+  }
+  .header__nav-link {
+    font-size: 17px;
+  }
+  .header__nav-link::after {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .header {
+    flex-direction: row-reverse;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__menu-img {
+    --size: 50px;
+  }
+}

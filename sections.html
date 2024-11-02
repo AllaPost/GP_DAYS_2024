@@ -1,80 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Секции - GP DAYS 2024</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="./favicon/site.webmanifest" />
 
+    <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="./sections.css" />
+    <link rel="stylesheet" href="header.media.css" />
     <link rel="stylesheet" href="media.css" />
     <script src="./index.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <header class="header">
-            <div class="header__logo">
-                <a href="https://globus-ltd.ru/" target="_blank"><img class="header__logo-globus"
-                        src="./icon/globus.png" /></a>
-            </div>
-            <nav class="header__nav">
-                <a href="./index.html" class="header__nav-link">главная</a>
-                <a href="./info.html" class="header__nav-link">о мероприятии</a>
-                <a href="./prices.html" class="header__nav-link">цены</a>
-                <a href="#" class="header__nav-link">секции</a>
-                <a href="./contacts.html" class="header__nav-link">контакты</a>
-                <a href="./parts.html" class="header__nav-link">партнеры</a>
-            </nav>
-            <div class="header__menu" id="header__menu">
-                <img class="header__menu-img" src="./icon/menu-50.png" alt="/" />
-            </div>
+      <header class="header">
+        <div class="header__logo">
+          <a href="https://globus-ltd.ru/" target="_blank"
+            ><img class="header__logo-globus" src="./icon/globus.png"
+          /></a>
+        </div>
+        <nav class="header__nav">
+          <a href="./index.html" class="header__nav-link">главная</a>
+          <a href="./info.html" class="header__nav-link">о мероприятии</a>
+          <a href="./prices.html" class="header__nav-link">цены</a>
+          <a href="#" class="header__nav-link">секции</a>
+          <a href="./contacts.html" class="header__nav-link">контакты</a>
+          <a href="./parts.html" class="header__nav-link">партнеры</a>
+        </nav>
+        <div class="header__menu" id="header__menu">
+          <img class="header__menu-img" src="./icon/menu-50.png" alt="/" />
+        </div>
 
-            <div class="header__modal" id="header__modal">
-                <nav class="header__modal-nav">
-                    <a href="./index.html" class="header__modal-link">главная</a>
-                    <a href="./info.html" class="header__modal-link">о мероприятии</a>
-                    <a href="./prices.html" class="header__modal-link">цены</a>
-                    <a href="#" class="header__modal-link">секции</a>
-                    <a href="./contacts.html" class="header__modal-link">контакты</a>
-                    <a href="./parts.html" class="header__modal-link">партнеры</a>
-                </nav>
-                <p class="header__modal-close" id="header__modal-close">✖</p>
-            </div>
-        </header>
+        <div class="header__modal" id="header__modal">
+          <nav class="header__modal-nav">
+            <a href="./index.html" class="header__modal-link">главная</a>
+            <a href="./info.html" class="header__modal-link">о мероприятии</a>
+            <a href="./prices.html" class="header__modal-link">цены</a>
+            <a href="#" class="header__modal-link">секции</a>
+            <a href="./contacts.html" class="header__modal-link">контакты</a>
+            <a href="./parts.html" class="header__modal-link">партнеры</a>
+          </nav>
+          <p class="header__modal-close" id="header__modal-close">✖</p>
+        </div>
+      </header>
 
-        <main class="more">
-            <div class="more__contacts">
-                <h1>секции</h1>
-              </div>
+      <main class="more">
+        <div class="more__contacts">
+          <h1>секции</h1>
+        </div>
 
-            <div class="image__item-ol"> <img src="./img/olen-bg.svg" alt="/"> </div>
-            <div class="image__item-green"><img src="./img/green-grad.png" alt="/"></div>
+        <div class="image__item-ol">
+          <img src="./img/olen-bg.svg" alt="/" />
+        </div>
+        <div class="image__item-green">
+          <img src="./img/green-grad.png" alt="/" />
+        </div>
 
-            <ul class="more__upr">
-                <li> <img class="more__upr-img" src="./section/1.svg"> </li>
-                <li><img class="more__upr-img" src="./section/2.svg"></li>
-                <li><img class="more__upr-img" src="./section/3.svg"></li>
-                <li> <img class="more__upr-img" src="./section/4.svg"> </li>
-            </ul>
-            <ul class="more__diz">
-                <li><img class="more__diz-img" src="./section/5.svg"></li>
-                <li><img class="more__diz-img" src="./section/6.svg"></li>
-                <li> <img class="more__diz-img" src="./section/7.svg"> </li>
-                <li><img class="more__diz-img" src="./section/8.svg"></li>
-            </ul>
-        </main>
+        <ul class="more__upr">
+          <li><img class="more__upr-img" src="./section/1.svg" /></li>
+          <li><img class="more__upr-img" src="./section/2.svg" /></li>
+          <li><img class="more__upr-img" src="./section/3.svg" /></li>
+          <li><img class="more__upr-img" src="./section/4.svg" /></li>
+        </ul>
+        <ul class="more__diz">
+          <li><img class="more__diz-img" src="./section/5.svg" /></li>
+          <li><img class="more__diz-img" src="./section/6.svg" /></li>
+          <li><img class="more__diz-img" src="./section/7.svg" /></li>
+          <li><img class="more__diz-img" src="./section/8.svg" /></li>
+        </ul>
+      </main>
     </div>
-</body>
-
+  </body>
 </html>
