@@ -2,7 +2,7 @@
   overflow-x: hidden;
 }
 
-.content {
+.contacts__content {
   display: flex;
   flex-direction: column;
   position: relative;

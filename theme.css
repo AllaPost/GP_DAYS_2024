@@ -1,4 +1,4 @@
-.content {
+.theme__content {
   display: grid;
   position: relative;
   grid-template-columns: 25% 35% 40%;
