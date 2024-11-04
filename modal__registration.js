@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     modalRegistrationContent.addEventListener("submit", (e)=>{
         e.preventDefault()
         modalRegistration.classList.toggle("modal__registration-open")
+        
         const form = e.target 
         alert(`Почта ${form["modal__registration_email_input"].value} 
         Пароль ${form["modal__registration_password_input"].value}`)
