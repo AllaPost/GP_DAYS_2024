@@ -1,102 +1,269 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Секции - GP DAYS 2024</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
+  <title>Секции - GP DAYS 2024</title>
 
-    <link rel="stylesheet" href="./header.css" />
-    <link rel="stylesheet" href="./sections.css" />
-    <link rel="stylesheet" href="./header.media.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
 
-  </head>
+  <link rel="stylesheet" href="./header.css" />
+  <link rel="stylesheet" href="./sections.css" />
+  <link rel="stylesheet" href="./header.media.css" />
 
-  <body>
-    <div class="container">
-      <header class="header">
-        <div class="header__logo">
-          <a href="https://globus-ltd.ru/" target="_blank"
-            ><img class="header__logo-globus" src="./icon/globus.png"
-          /></a>
-        </div>
-        <nav class="header__nav">
-          <a href="./home.html" class="header__nav-link">главная</a>
-          <a href="./theme.html" class="header__nav-link">о мероприятии</a>
-          <a href="./prices.html" class="header__nav-link">цены</a>
-          <a href="#" class="header__nav-link">секции</a>
-          <a href="./contacts.html" class="header__nav-link">контакты</a>
-          <a href="./partners.html" class="header__nav-link">партнеры</a>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <a href="https://globus-ltd.ru/" target="_blank"><img class="header__logo-globus" src="./icon/globus.png" /></a>
+      </div>
+      <nav class="header__nav">
+        <a href="./home.html" class="header__nav-link">главная</a>
+        <a href="./theme.html" class="header__nav-link">о мероприятии</a>
+        <a href="./prices.html" class="header__nav-link">цены</a>
+        <a href="#" class="header__nav-link">секции</a>
+        <a href="./contacts.html" class="header__nav-link">контакты</a>
+        <a href="./partners.html" class="header__nav-link">партнеры</a>
+      </nav>
+      <div class="header__menu" id="header__menu">
+        <img class="header__menu-img" src="./icon/menu-50.png" alt="/" />
+      </div>
+
+      <div class="header__modal" id="header__modal">
+        <nav class="header__modal-nav">
+          <a href="./home.html" class="header__modal-link">главная</a>
+          <a href="./theme.html" class="header__modal-link">о мероприятии</a>
+          <a href="./prices.html" class="header__modal-link">цены</a>
+          <a href="#" class="header__modal-link">секции</a>
+          <a href="./contacts.html" class="header__modal-link">контакты</a>
+          <a href="./partners.html" class="header__modal-link">партнеры</a>
         </nav>
-        <div class="header__menu" id="header__menu">
-          <img class="header__menu-img" src="./icon/menu-50.png" alt="/" />
-        </div>
+        <p class="header__modal-close" id="header__modal-close">✖</p>
+      </div>
+    </header>
 
-        <div class="header__modal" id="header__modal">
-          <nav class="header__modal-nav">
-            <a href="./home.html" class="header__modal-link">главная</a>
-            <a href="./theme.html" class="header__modal-link">о мероприятии</a>
-            <a href="./prices.html" class="header__modal-link">цены</a>
-            <a href="#" class="header__modal-link">секции</a>
-            <a href="./contacts.html" class="header__modal-link">контакты</a>
-            <a href="./partners.html" class="header__modal-link">партнеры</a>
-          </nav>
-          <p class="header__modal-close" id="header__modal-close">✖</p>
-        </div>
-      </header>
+    <main class="more">
+      <div class="more__sections">
+        <h1>к посещению</h1>
+      </div>
 
-      <main class="more">
-        <div class="more__contacts">
-          <h1>секции</h1>
-        </div>
+      <div class="sections">
+        <p class="sections__title">секции</p>
+        <ul class="sections__list">
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                секция «Управление»
+                (5 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Руководители ИТ-подразделений
+                крупнейших корпораций, представители
+                компаний-заказчиков, эксперты в области
+                ИТ, цифровых технологий и бизнес-
+                стратегий поделятся опытом адаптации
+                крупного бизнеса к цифровой среде,
+                управления командой и трансформации
+                бизнес-процессов в условиях глобальной
+                цифровизации. Кроме того, спикеры
+                поделятся историями успешного (и не
+                очень) запуска продуктов в своих
+                компаниях, а на круглом столе мы
+                обсудим основные направления и темпы
+                процесса импортозамещения
+              </p>
+              <p class="sections__list-profi">программный директор</p>
+              <p class="sections__list-name">Маргарита Сафонова, директор направления
+                развития бизнеса Globus</p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                секция «Управление»
+                (5 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Владельцы digital-агентств и продакшнов
+                расскажут о продуктовом подходе и
+                собственных разработках, а также
+                поделятся личными кейсами, как
+                выстроить успешный бизнес в сфере ИТ. В
+                рамках данной секции пройдет круглый
+                стол на тему аутстаффинга: тренды,
+                перспективы и проблемы этого
+                направления
+              </p>
+              <p class="sections__list-profi">программный директор</p>
+              <p class="sections__list-name">Сергей Поршнев, главный редактор
+                рейтингового агентства Теймэйн, основатель
+                A2A</p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                секция «Разработка»
+                (5 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Вместе с СТО и ведущими
+                разработчиками крупных компаний
+                разбираем технические кейсы,
+                искусственный интеллект, машинное
+                обучение и нейросети. Строим честный
+                диалог о хард и софт скиллах
+                разработчиков, обсуждаем новейшие
+                наработки и строим прогнозы
+                относительно будущего отрасли
+              </p>
+              <p class="sections__list-profi">программный директор</p>
+              <p class="sections__list-name">Дмитрий Савченко, еx ИТ-директор OBI,
+                vprok.ru</p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                секция «Дизайн» (4 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Mish Product Lab — №1 в дизайне по
+                версии Рейтинга Рунета и наши добрые
+                друзья. Сотрудники лаборатории и их
+                актуальные клиенты поделятся опытом
+                взаимодействия разработчиков и
+                дизайнеров, расскажут про продуктовый
+                подход в дизайне и раскроют бизнесу
+                тайну: что же лучше, аутстаф или аутсорс?
+              </p>
+              <p class="sections__list-profi">организатор</p>
+              <p class="sections__list-name">Mish Product Lab</p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                секция «HR» (5 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Обсуждаем современные подходы к
+                управлению персоналом в
+                технологических компаниях, стратегии
+                найма, адаптации и удержания ИТ-
+                специалистов, аналитические
+                инструменты и автоматизацию HR-
+                процессов. Отличная возможность
+                обменяться опытом и узнать о новых
+                инструментах для эффективного
+                управления персоналом в условиях
+                быстро меняющегося рынка технологий
+              </p>
+              <p class="sections__list-profi">программный директор</p>
+              <p class="sections__list-name">Самира Бахирова, HRD Globus, СЕО
+                CEREBRO</p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                питч-сессия (4 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Презентация и обсуждение стартап-
+                проектов как перспективных, так и уже
+                известных на российском рынке digital-
+                агентств/продакшнов. Как это будет? Мы
+                отбираем (с предварительной
+                модерацией) всего 7-10 докладов,
+                нацеленных на: IoT, ML, e-commerce,
+                маркетплейсы, информационную
+                безопасность, участники представляют 5-
+                минутные презентации своих проектов,
+                экспертное жюри задает вопросы и дает
+                рекомендации участникам. Это отличная
+                возможность обратить на себя внимание
+                инвесторов с целью партнерств,
+                менторства и поглощений
+              </p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                хакатон (4-5 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Бесплатный хакатон «ML и универсальный
+                дизайн» от Globus IT и Gorky Tech для
+                студентов нижегородских вузов и
+                начинающих разработчиков.
+                Мероприятие пройдет 5 и 6 сентября в
+                очном режиме. Участникам соревнования
+                предстоит разработать шаблонный сайт
+                органа власти с учетом требований
+                доступности для слабовидящих и
+                незрячих пользователей, создать
+                программное решение для
+                автоматизированной проверки
+                соответствия требованиям доступности
+                интерфейсов и подсчета количества
+                однотипных объектов на фото с
+                использованием CV
+              </p>
+            </div>
+          </li>
+          <li class="sections__list-item">
+            <div class="sections__list-info">
+              <h4 class="sections__list-title">
+                футбольный ИТ-турнир
+                (4 сентября)
+              </h4>
+              <p class="sections__list-description">
+                Футбольный ИТ-турнир конференции GP
+                Days 2024 пройдет в Нижнем Новгороде 4
+                сентября. Вы можете зарегистрировать:
+                — себя и своих коллег из сферы ИТ и digital
+                индивидуально (мы подберем команду для
+                вас)
+                — свою команду от 6 человек (минимум 5
+                полевых игроков + минимум 1 вратарь)
 
-        <div class="image__item-ol">
-          <img src="./img/olen-bg.svg" alt="/" />
-        </div>
-        <div class="image__item-green">
-          <img src="./img/green-grad.png" alt="/" />
-        </div>
+                Игра пройдет в мини-футбольном
+                формате в 2 тайма. Турнирный формат
+                будет представлен после определения
+                участников.
+              </p>
+              <p class="sections__list-profi">куратор</p>
+              <p class="sections__list-name">Иван Древенщиков, директор по коммуникациям
+                Globus</p>
+            </div>
+          </li>
 
-        <ul class="more__upr">
-          <li><img class="more__upr-img" src="./section/1.svg" /></li>
-          <li><img class="more__upr-img" src="./section/2.svg" /></li>
-          <li><img class="more__upr-img" src="./section/3.svg" /></li>
-          <li><img class="more__upr-img" src="./section/4.svg" /></li>
         </ul>
-        <ul class="more__diz">
-          <li><img class="more__diz-img" src="./section/5.svg" /></li>
-          <li><img class="more__diz-img" src="./section/6.svg" /></li>
-          <li><img class="more__diz-img" src="./section/7.svg" /></li>
-          <li><img class="more__diz-img" src="./section/8.svg" /></li>
-        </ul>
-      </main>
-    </div>
-    <script src="./header.js"></script>
-  </body>
+      </div>
+
+      <div class="image__item-ol">
+        <img src="./img/olen-bg.svg" alt="/" />
+      </div>
+      <div class="image__item-green">
+        <img src="./img/green-grad.png" alt="/" />
+      </div>
+
+
+    </main>
+  </div>
+  <script src="./header.js"></script>
+</body>
+
 </html>

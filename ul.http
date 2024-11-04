@@ -1,0 +1,12 @@
+        <ul class="more__upr">
+          <li><img class="more__upr-img" src="./section/1.svg" /></li>
+          <li><img class="more__upr-img" src="./section/2.svg" /></li>
+          <li><img class="more__upr-img" src="./section/3.svg" /></li>
+          <li><img class="more__upr-img" src="./section/4.svg" /></li>
+        </ul>
+        <ul class="more__diz">
+          <li><img class="more__diz-img" src="./section/5.svg" /></li>
+          <li><img class="more__diz-img" src="./section/6.svg" /></li>
+          <li><img class="more__diz-img" src="./section/7.svg" /></li>
+          <li><img class="more__diz-img" src="./section/8.svg" /></li>
+        </ul>
