@@ -1,3 +1,15 @@
+@media (max-width: 1500px) {
+  .content__main-img {
+    top: 5%;
+}
+}
+
+@media (max-width: 1333px) {
+  .content__main-img {
+    top: 15%;
+}
+}
+
 @media (max-width: 1126px) {
   .info__cohf {
     grid-row-start: 3;
@@ -7,11 +19,9 @@
     justify-content: center;
   }
 
-  .text__waiting,
-  .item__text {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
+  .content__main-img {
+    top: 15%;
+}
 }
 
 @media (max-width: 1010px) {
@@ -19,83 +29,96 @@
     font-size: 100px;
     justify-content: center;
   }
-}
 
-@media (max-width: 816px) {
-  .content__temperature {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    align-self: flex-end;
-  }
-}
-
-@media (max-width: 599px) {
-  .content__btn,
-  .content__info,
-  .content__social,
-  .content__temperature,
-  .gallery__places {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  .content__btn {
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  .content__info {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    align-self: start;
-    margin-top: 0;
-    text-align: center;
-    color: var(--color-ff);
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px 10px;
-  }
-  .content__social {
-    display: flex;
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
   .content__main-img {
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-  .content__temperature {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    justify-self: start;
-    color: var(--color-ff);
-  }
-  .gallery__places {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    right: 0;
-  }
-  .text_in {
-    font-size: 13px;
+    top: 20%;
+}
+}
+
+@media (max-width: 870px) {
+  .content__main-img {
+    top: 25%;
+}
+}
+
+@media (max-width: 700px) {
+  .info__data {
+    font-size: 40px;
   }
 
-  .icon-PO {
-    background-image: url("./icon/PO-white.png");
+  .content__info-icon {
+    font-size: 80px;
+    justify-content: start;
   }
 
+  .content__main-img {
+    top: 30%;
+}
+
+.info__cohf {
+  font-size: 23px;
+}
+.content__animal-left {
+  left: 70%;
+  bottom: 35%;
+}
+
+.content__animal-top {
+  left: 70%;
+  bottom: 60%;
+}
+
+.content__animal-item {
+  left: 40%;
+  top: 70%;
+}
+}
+
+@media (max-width: 550px) {
+  .content__main-img {
+    display: none;
+  }
+
+  .info__data {
+    font-size: 35px;
+  }
+
+  .content__info-icon {
+    font-size: 70px;
+    justify-content: start;
+  }
+}
+
+@media (max-width: 500px) {
+.info__data {
+  font-size: 30px;
+}
+
+  .content__info-icon {
+    font-size: 60px;
+    justify-content: start;
+  }
+
+.info__cohf {
+  font-size: 20px;
+}
+
+.content__animal-left {
+  left: 70%;
+}
+
+.content__animal-top {
+  left: 70%;
+  bottom: 60%;
+}
+
+.content__animal-item {
+  left: 50%;
+}
+}
+
+@media (max-width: 385px) {
   .info__cohf {
-    grid-column-end: 4;
-  }
-}
-@media (max-width: 410px) {
-  .content__info-title {
-    font-size: 27px;
-    margin-bottom: 15px;
-  }
-}
-@media (max-width: 370px) {
-  .content__temperature {
-    max-width: 100px;
-    padding-left: 10px;
-    align-self: auto;
+    font-size: 18px;
   }
 }
